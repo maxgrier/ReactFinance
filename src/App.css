@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /* display: inline-flex; */
 }
 
 .App-logo {
@@ -35,4 +36,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* My Section Starts */
+.headerDiv {
+  width: 100%;
+  margin-bottom: 2vh;
+}
+
+.lineOuter{
+  width: 100%;
+  display: inline-flex;
+}
+.lineDiv {
+  width: 48%;
+  margin: auto;
+  border: black solid 1px;
+}
+
+.newsOuter{
+  display: inline-flex;
+  width: 98%;
+  margin: auto;
+}
+
+.newsItem {
+  width: 30%;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+}
+
+.footer {
+  height: 10vh;
 }
