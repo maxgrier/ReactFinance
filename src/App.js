@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
 
-      {/* Section for header */}
+      {/* Section for header   */}
       <div className='headerDiv'>
         <Header />
       </div>
